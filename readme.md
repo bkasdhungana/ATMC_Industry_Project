@@ -11,6 +11,7 @@
 1. Set your database credentials in your `.env` file
 1. Set your Braintree credentials in your `.env` file if you want to use PayPal. Specifically `BT_MERCHANT_ID`, `BT_PUBLIC_KEY`, `BT_PRIVATE_KEY`.
 1. Set `ADMIN_PASSWORD` in your `.env` file if you want to specify an admin password. The default password is 'password'
+1. Use `veggies:install` fro migration and seeding of data including the admin panel
 1. `npm install`
 1. `npm run dev`
 1. `php artisan serve` or use Laravel Valet or Laravel Homestead
